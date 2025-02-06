@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asisten Informatika</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>Asisten Informatika</h3>
+            </div>
+            <div class="chat-box" id="chatBox"></div>
+            <div class="chat-input d-flex">
+                <input type="text" id="messageInput" class="form-control" placeholder="Ketik pertanyaan..." required>
+                <button onclick="sendMessage()" id="sendBtn" class="btn btn-primary ms-2">Kirim</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
